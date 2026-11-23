@@ -159,15 +159,16 @@ Non-goals and follow-ups, each needing its own specification:
 - **Baseline validation evidence:** `msbuild BookCatalog.sln -restore
   -p:Configuration=Release`, run from
   `legacy-src/dotnet-bookcatalog/shared-legacy-app` with Visual Studio Build
-  Tools 2022 (17.14.45): build succeeded. The manual IIS Express/LocalDB smoke
-  check has not been run.
+  Tools 2022 (17.14.45):   build succeeded. LocalDB 16.0 is installed and running.
+    The manual IIS Express smoke check has not been run.
 
 ### Unresolved questions
 
 - [ ] Confirm that the User-Agent display is not an intentional workshop
       talking point. Owner: maintainer. Decide before approval.
-- [ ] Confirm that the build tooling and LocalDB are available on the machine
-      that will implement this. Owner: implementer. Decide before approval.
+- [x] Confirm that the build tooling and LocalDB are available on the machine
+      that will implement this. Resolved: MSBuild (Build Tools 2022 17.14.45)
+      and LocalDB 16.0 `MSSQLLocalDB` (running) are available. Owner: implementer. Decide before approval.
 
 The specification is not ready for approval while a question can change scope,
 acceptance criteria, allowed paths, exclusions, or validation.
