@@ -3,7 +3,7 @@
 ## Metadata
 
 - **Owner:** Workshop application team (@jbrostgov)
-- **Status:** Draft
+- **Status:** Approved
 - **Source root:** `legacy-src/dotnet-bookcatalog/shared-legacy-app`
 - **Related issue:** not created
 
@@ -164,11 +164,13 @@ Non-goals and follow-ups, each needing its own specification:
 
 ### Unresolved questions
 
-- [ ] Confirm that the User-Agent display is not an intentional workshop
-      talking point. Owner: maintainer. Decide before approval.
+- [x] Confirm that the User-Agent display is not an intentional workshop
+      talking point. Resolved by the maintainer (2026-11-23): repository grep
+      found no lab or facilitator material that relies on the display, and
+      the facilitator reference solution also removes it.
 - [x] Confirm that the build tooling and LocalDB are available on the machine
       that will implement this. Resolved: MSBuild (Build Tools 2022 17.14.45)
-      and LocalDB 16.0 `MSSQLLocalDB` (running) are available. Owner: implementer. Decide before approval.
+      and LocalDB 16.0 `MSSQLLocalDB` (running) are available.
 
 The specification is not ready for approval while a question can change scope,
 acceptance criteria, allowed paths, exclusions, or validation.
@@ -204,11 +206,12 @@ Stop and request human guidance if:
 
 ### Human approval
 
-- [ ] I reviewed the evidence, unresolved questions, allowed paths, acceptance
+- [x] I reviewed the evidence, unresolved questions, allowed paths, acceptance
       criteria, validation command, exclusions, risks, and stop conditions.
-- **Reviewer:** pending
-- **Approval date:** pending
-- **Approved specification commit:** pending
+- **Reviewer:** jbrostgov
+- **Approval date:** 2026-11-23
+- **Approved specification commit:** c2f91eb (content reviewed; this approval
+  record is added in the following commit)
 
 Change **Status** to `Approved` only after the checkbox is selected and the
 reviewer, date, and commit fields are complete. Planning approval authorizes
