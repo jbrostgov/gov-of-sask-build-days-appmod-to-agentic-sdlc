@@ -114,7 +114,7 @@ is:
 
 The request user-agent diagnostic is not catalog behavior. If you adopt the
 approved example in
-[`specs/examples/dotnet-remove-user-agent.md`](../../../specs/examples/dotnet-remove-user-agent.md),
+[`specs/dotnet-remove-user-agent.md`](../../../specs/dotnet-remove-user-agent.md),
 record its removal as an intentional delta. Otherwise make an explicit decision
 instead of silently losing or retaining it.
 

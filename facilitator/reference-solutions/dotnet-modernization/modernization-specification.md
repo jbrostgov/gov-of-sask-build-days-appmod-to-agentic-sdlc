@@ -42,7 +42,7 @@ Service target.
 | FR-2 | Details, create, edit, and delete shall preserve validation, antiforgery on mutations, and not-found behavior. | `BooksController.cs`; `Models/Book.cs`; Books views |
 | FR-3 | A fresh database shall contain the six active seeds and one inactive Matrix seed with deterministic values. | `Models/ApplicationDbContext.cs:SeedBooks` |
 | FR-4 | A created or edited record shall persist across an app restart. | Catalog data is persistent state; startup must not reset it. |
-| FR-5 | The browser user-agent diagnostic shall be removed without replacing it in UI, logs, or view data. | Approved `specs/examples/dotnet-remove-user-agent.md` decision |
+| FR-5 | The browser user-agent diagnostic shall be removed without replacing it in UI, logs, or view data. | Approved `specs/dotnet-remove-user-agent.md` decision |
 | FR-6 | Development may apply EF Core migrations when `InitializeDatabase` is true; Production shall not initialize schema. | Imported Bicep sets `InitializeDatabase=false`; bootstrap owns Azure schema. |
 | FR-7 | Production shall read `ConnectionStrings:BookCatalogContext` from Key Vault with the configured user-assigned identity. | Imported Bicep/helper contract |
 

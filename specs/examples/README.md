@@ -5,7 +5,7 @@ reference specifications shaped as the single durable artifact required by
 Lab 01, not instructions to modify the imported baselines.
 
 - [Java: enforce the documented image upload policy](java-upload-validation.md)
-- [.NET: remove request-specific browser diagnostics](dotnet-remove-user-agent.md)
+- [.NET: remove request-specific browser diagnostics](../dotnet-remove-user-agent.md)
 
 Each example includes evidence, an execution boundary, acceptance criteria,
 validation, exclusions, stop conditions, and a Plan-mode review checkpoint.

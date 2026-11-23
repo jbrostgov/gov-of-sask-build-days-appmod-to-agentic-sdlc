@@ -61,7 +61,7 @@ is created from the approved specification with the
 [autonomous issue body template](../../specs/templates/autonomous-issue-body.md).
 
 Completed [Java](../../specs/examples/java-upload-validation.md) and
-[.NET](../../specs/examples/dotnet-remove-user-agent.md) examples show the
+[.NET](../../specs/dotnet-remove-user-agent.md) examples show the
 expected level of detail.
 
 ## Exercise

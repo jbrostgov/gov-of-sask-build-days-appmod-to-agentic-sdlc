@@ -1,11 +1,9 @@
 # .NET example: remove request-specific browser diagnostics
 
-> Reference example only. It does not authorize changes to the imported source.
-
 ## Metadata
 
 - **Owner:** Workshop application team
-- **Status:** Reference example — not approved for execution
+- **Status:** Approved for execution
 - **Source root:** `legacy-src/dotnet-bookcatalog/shared-legacy-app`
 - **Related issue:** Not created
 
@@ -107,14 +105,13 @@ separate specification with explicit privacy and operational requirements.
   renders the value.
 - **Existing tests:** Automated coverage for this view behavior must be
   confirmed in the source root.
-- **Baseline validation evidence:** Not recorded for this non-executable
-  reference example; a real specification must record the command result or an
-  exact prerequisite blocker before approval.
+- **Baseline validation evidence:** Not recorded; the implementing agent must
+  record the command result or an exact prerequisite blocker in its PR.
 
 ### Unresolved questions
 
-- None in the illustrative scope. A real planning session must verify test
-  coverage and the baseline result.
+- None. Test coverage must be confirmed in the source root during
+  implementation.
 
 ### Boundary and validation review
 
@@ -134,7 +131,9 @@ catalog filtering, ordering, routes, models, columns, or actions would change.
 
 ### Human approval
 
-- [ ] Execution approval is intentionally not granted for this reference.
-- **Reviewer:** Not applicable — reference example
-- **Approval date:** Not applicable — reference example
-- **Approved specification commit:** Not applicable — reference example
+- [x] Execution approval granted.
+- **Reviewer:** jbrostgov
+- **Approval date:** 2026-11-23
+- **Approved specification commit:** 08e07486c00fb32d2f0df43f6cef662e74dcbb9b
+  (base commit; the approved content is the first commit that adds this file
+  on top of it)
